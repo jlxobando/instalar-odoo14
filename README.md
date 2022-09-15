@@ -7,6 +7,10 @@ This script can be safely used in a multi-odoo code base server because the defa
 ## Installing Nginx
 If you set the parameter ```INSTALL_NGINX``` to ```True``` you should also configure workers. Without workers you will probably get connection loss issues. Look at [the deployment guide from Odoo](https://www.odoo.com/documentation/14.0/setup/deploy.html) on how to configure workers.
 
+## Actualizar el Sistema(Opcional)
+```
+apt-get update && apt-get upgrade -y
+```
 ## Installation procedure
 
 ##### 1. Download the script:
